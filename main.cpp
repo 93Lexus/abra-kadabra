@@ -25,6 +25,7 @@ int fib2a(int k)
    fib2(k,ck,ck1);
    return ck;
 }
+//Returns square of X
 double sqr(double x) {return x*x;}
 bool realRoots (int a,int b, int c,double& x1,double& x2)
 {
@@ -37,6 +38,7 @@ bool realRoots (int a,int b, int c,double& x1,double& x2)
     x2=-b2a+d;
     return true;
 }
+// Its abra kadabra!
 bool identify(double x, int& a, int& b,int& c)
 {
     int N=10;
